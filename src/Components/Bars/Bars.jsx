@@ -1,6 +1,6 @@
 const Bars = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 w-11/12 mx-auto">
+    <div className="grid grid-cols-2 gap-6 w-11/12 mx-auto mb-20 pt-20">
       <div className="flex flex-col h-62.5 text-center   justify-center rounded-lg"
           style={{
           backgroundImage: `linear-gradient(to bottom right, #632EE3, #9F62F2), url('/src/assets/vector1.png')`,
