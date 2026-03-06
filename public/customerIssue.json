@@ -1,0 +1,92 @@
+[
+  {
+    "id": "CS-101",
+    "title": "Login Issues - Can't Access Account",
+    "status": "In-Progress",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still haven't received the reset link.",
+    "priority": "High Priority",
+    "customerName": "John Smith",
+    "createdAt": "2024-05-20T10:30:00Z"
+  },
+  {
+    "id": "CS-102",
+    "title": "Payment Failure - Subscription Renewal",
+    "status": "Open",
+    "description": "The customer reported that their annual subscription failed to renew even though the credit card information is correct.",
+    "priority": "High Priority",
+    "customerName": "Michael Brown",
+    "createdAt": "2024-05-21T14:15:00Z"
+  },
+  {
+    "id": "CS-103",
+    "title": "UI Bug - Dashboard Not Loading",
+    "status": "In-Progress",
+    "description": "After the latest update, the main analytics dashboard is showing a blank white screen for enterprise users.",
+    "priority": "Medium Priority",
+    "customerName": "Sarah Jenkins",
+    "createdAt": "2024-05-21T09:00:00Z"
+  },
+  {
+    "id": "CS-104",
+    "title": "Feature Request - Dark Mode Support",
+    "status": "Open",
+    "description": "Customer is requesting a native dark mode for the mobile application to reduce eye strain during night usage.",
+    "priority": "Low Priority",
+    "customerName": "David Wilson",
+    "createdAt": "2024-05-22T11:45:00Z"
+  },
+  {
+    "id": "CS-105",
+    "title": "Refund Request - Duplicate Charge",
+    "status": "Open",
+    "description": "User was charged twice for the monthly 'Pro' plan. Requesting an immediate refund for the second transaction.",
+    "priority": "High Priority",
+    "customerName": "Emily Davis",
+    "createdAt": "2024-05-22T13:20:00Z"
+  },
+  {
+    "id": "CS-106",
+    "title": "Account Deletion Request",
+    "status": "In-Progress",
+    "description": "Customer wants to permanently delete their account and all associated data due to privacy concerns.",
+    "priority": "Low Priority",
+    "customerName": "Robert Chen",
+    "createdAt": "2024-05-23T08:10:00Z"
+  },
+  {
+    "id": "CS-107",
+    "title": "API Integration Error - Webhooks",
+    "status": "Open",
+    "description": "Developer reporting that the POST webhooks are returning a 500 error code for the last 3 hours.",
+    "priority": "High Priority",
+    "customerName": "Alex Martinez",
+    "createdAt": "2024-05-23T15:30:00Z"
+  },
+  {
+    "id": "CS-108",
+    "title": "Profile Update Issue",
+    "status": "In-Progress",
+    "description": "Unable to change profile picture. Every time the user uploads an image, the server returns an 'Invalid File Type' error.",
+    "priority": "Medium Priority",
+    "customerName": "Jessica Taylor",
+    "createdAt": "2024-05-24T10:00:00Z"
+  },
+  {
+    "id": "CS-109",
+    "title": "Slow Performance - Mobile App",
+    "status": "Open",
+    "description": "Reporting significant lag and high battery consumption on the Android version of the app (v2.4.1).",
+    "priority": "Medium Priority",
+    "customerName": "Kevin White",
+    "createdAt": "2024-05-24T12:45:00Z"
+  },
+  {
+    "id": "CS-110",
+    "title": "Incorrect Shipping Address",
+    "status": "Open",
+    "description": "Customer accidentally provided the wrong street number for their hardware order and needs to update it before shipping.",
+    "priority": "High Priority",
+    "customerName": "Sophia Garcia",
+    "createdAt": "2024-05-25T07:20:00Z"
+  }
+]
