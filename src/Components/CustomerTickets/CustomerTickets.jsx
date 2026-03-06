@@ -1,7 +1,6 @@
-import React, { use } from 'react';
 import CustomerTicket from '../CustomerTicket/CustomerTicket';
 
-const CustomerTickets = ({issuePromise, tickets, className, handleStatus}) => {
+const CustomerTickets = ({tickets, className, handleStatus}) => {
   // const issueTickets = use(issuePromise)
   // console.log(issueTickets)
   return (
