@@ -1,4 +1,4 @@
-const Bars = () => {
+const Bars = ({status, complete}) => {
   return (
     <div className="grid grid-cols-2 gap-6 w-11/12 mx-auto mb-20 pt-20">
       <div className="flex flex-col h-62.5 text-center   justify-center rounded-lg"
@@ -8,7 +8,7 @@ const Bars = () => {
         }}
       >
         <h3 className="text-white text-2xl">In Progress</h3>
-        <h2 className="text-white text-6xl font-semibold">0</h2>
+        <h2 className="text-white text-6xl font-semibold">{status.length}</h2>
       </div>
       <div className="flex flex-col h-62.5 text-center  justify-center rounded-lg"
           style={{
@@ -17,7 +17,7 @@ const Bars = () => {
         }}
       >
         <h3 className="text-white text-2xl">Resolved</h3>
-        <h2 className="text-white text-6xl font-semibold">0</h2>
+        <h2 className="text-white text-6xl font-semibold">{complete.length}</h2>
       </div>
     </div>
   );

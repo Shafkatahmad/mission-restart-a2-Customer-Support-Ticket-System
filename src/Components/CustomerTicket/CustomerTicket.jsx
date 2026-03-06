@@ -1,10 +1,14 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const CustomerTicket = ({ticket}) => {
+const CustomerTicket = ({ticket, handleStatus}) => {
   const {title, status, description, id, priority, customerName, createdAt} = ticket
-  console.log(ticket)
+  // console.log(ticket)
   return (
-    <div>
+    <div onClick={()=> {
+      handleStatus(ticket)
+      toast.success('Added to Task Status bar')
+    }}>
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body p-4">
           <div className='flex justify-between'>
